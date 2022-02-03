@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+background-color:#ffcc;
+font: 600 16px 'Roboto', sans-serif
+}
+
+h1 {
+color:#2e24f0;
+}
+
+h2{
+    font-size: 30px;
+}
+.avatar1{
+    width: 500px;
+    box-shadow: 5px 5px 10px 3px #e303fc;
+}
+.avatar2{
+    width: 400px; 
+    box-shadow: 5px 5px 10px 3px red;
+}
+.avatar3{
+    border-radius:100px;
+}
+.avatar4{
+    width: 300px;
+    border-radius:20px; 
+}
+
+
+.info2 p {
+    margin: 0 ;
+    font-style:oblique;
+    font-weight: unset;
+   /* text-transform: capitalize; */
+    word-spacing: 5px;
+}
+
+/*Box Model*/
+
+.abobas{
+    padding-bottom: 10px;
+    
+}
+
+.abobas p{
+    border-bottom: solid rgb(224, 36, 140) ;
+}
+
+.bebra {   /*Относиться к социальным сетям*/
+background:#ecfa8e;
+border-radius:20px;
+margin: auto ;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+ a:hover{
+    text-decoration: line-through;
+ }
+a:active{
+    color: green;
+}
+ .cart li{
+     color: rgb(68, 0, 255);
+     letter-spacing: 2px;
+     margin-bottom: 5px;
+     border-bottom: solid rgb(224, 36, 140) ;
+ }
+
+.bg-1{
+    background: rgb(190, 211, 170);
+}
+
+.bg-2{
+    background: rgb(226, 226, 137);
+}
+.bg-3{
+    background: rgb(195, 228, 152);
+}
+
+.bg-4{      /* Относиться к таблице*/
+    background: rgb(187, 212, 208);
+    border-radius: 20px;
+
+    
+}
+
+.bg-5{
+    background: khaki;
+    padding:30px 20px 10px 20px;
+    border-radius: 20px;
+    
+}
+ 
+
+.cart{
+    color: rgb(219, 48, 205);
+    padding: 15px 20px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    
+ }
+
+ .cart h2{
+    text-align: center;
+ }
+
+ .cart label{
+     display: block;
+ }
+
+ .cart input{
+     width: 100%;
+     border: none;
+     border-bottom: 2px solid rgb(213, 1, 175);
+     color: rgb(0, 0, 0);
+     padding: 10px 5px;
+     outline: none;
+     font-family: cursive;
+     background: transparent;
+     cursor: wait;
+ }
+
+ .social{
+    background: rgb(219, 219, 119);
+    padding: 20px 0px 20px 0px;
+    border-radius: 20px;
+ }
+ .social h2 {
+    color: rgb(207, 32, 195);
+    text-align: center;
+ }
+
+ .social h4 {
+    margin-bottom: 10px;
+ }
+ 
+
+
+ /* *{  
+     padding: ;
+     margin: ;
+ } */
+
+
+.bro{      /* table*/
+     width: 100%;
+     border-radius: 20px;
+     padding: 0px 20px 20px 20px;
+     
+ }
+
+ 
+
+ .popa {    /*  h2 */
+    padding:30px 20px 10px 20px;
+    color: rgb(202, 48, 202);
+ }
+ 
+ 
+
+   .bro td {  /*Относиться к td */
+ padding-bottom: 10px;
+ }
+ 
+ .bro td:nth-child(1),
+  td:nth-child(2), 
+  td:nth-child(3){
+     color: rgb(190, 11, 11);
+ }
+
+ .fifa h1{
+    text-align: center;
+ }
+
+ /*Position*/
+
+ .Position{
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    }
+
+ .LoL{
+     width: 50px;
+     height: 50px;
+     background: yellow;
+     position:absolute;
+     border-radius: 50px;
+ }
